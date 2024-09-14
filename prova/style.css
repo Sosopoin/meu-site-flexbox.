@@ -1,0 +1,116 @@
+/*barra de navegação*/
+
+.navbar  {
+    position: fixed;
+    top: 0%;
+    background-color: #424242;
+    overflow: hidden;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav ul li a {
+    margin-right: 20px;
+    font-size: 30px;
+    color: darkred;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   display: flex;
+  
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+/*conteudo*/
+
+.paragrafos {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+h1{
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: dimgrey;
+}
+
+h3 {
+    color: white;
+}
+
+
+main {
+    background-color: #000000;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* caixas de serviço*/
+
+.container{
+    display: flex;
+}
+
+.serviços {
+    padding: 20px;  
+    background-color: rgb(83, 22, 22); 
+    margin: 20px;
+    border: 3px solid #2c2c2c;
+}
+
+.assinaturas {
+    background-color:rgb(83, 22, 22) ;
+    padding: 3px;
+    align-items: center;
+    width: 700px;
+    height: 270px;
+    justify-content: center;
+    margin-left: 28%;
+    border: 3px solid #2c2c2c;
+    
+}
+
+
+/*rodapé*/
+
+footer {
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.redesociais {
+    padding: 10px;
+}
